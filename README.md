@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Taskify 📋
 
-## Getting Started
+Trello clone project. Create organizations to manage boards of tasks.
 
-First, run the development server:
+Create up to 5 free boards and unlimited number of lists and tasks. Upgrade to a payed plan to get unlimited boards.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Reorganize tasks using a drag and drop interface.
+## Access Link
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+https://taskify-w7gp.vercel.app/
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Functionalities
 
-## Learn More
+- Login using a google account (OAuth 2.0);
+- User managament (Clerk);
+- Create up to 5 free boards;
+- User dashboard with pages:
+    - activity;
+    - billing;
+    - settings;
+- Drag and drop list/tasks interface;
+- Payed plan functionalities;
+## Stacks
 
-To learn more about Next.js, take a look at the following resources:
+**Front-end:** NextJs, React, React-Hooks, TypeScript, Tailwind, Shadcn-ui, Usehooks-Ts, Sonner, Clerk
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**Back-en:** NextJs, REST, Zod, TypeScript 
+    
